@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>ToDo lista</title>
+</head>
+<body>
+    <div id='container'>
+        <!-- <h1>My Simple Todo list</h1> -->
+        <h2>TODOS</h2>
+        <div id='divhozzaad'>
+                 <input type="text" name="ujtennivalo" id="ujtennivalo">
+                <button id="gombhozzaad">Add</button>
+        </div>
+        <ul id="tennivalolista">
+            <li class='todoelem'><div>Menni venni</div><div> <img src="ok.svg" alt="" class="okgomb"><img src="delete.svg" alt="" class="delgomb"></div></li>
+            <li class='todoelem'><div>Enni venni</div><div> <img src="ok.svg" alt="" class="okgomb"><img src="delete.svg" alt="" class="delgomb"></div></li>        
+            <li class='todoelem'><div>Veknit venni</div><div> <img src="ok.svg" alt="" class="okgomb"><img src="delete.svg" alt="" class="delgomb"></div></li>                    
+        </ul>
+    </div>
+        
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

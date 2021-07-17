@@ -1,0 +1,97 @@
+.container {
+    background: #e4e7f5;
+  display: flex;
+  width: 800px;
+  margin: auto;
+ }
+header {
+    background: #606060;
+  height: 80px;
+  display: flex;
+  width: 600px;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+header a, a:visited, a:hover, a:active {
+    font-family: 'Proza Libre', sans-serif;
+  color: #e4e7f5;
+  font-size: 25px;
+   text-decoration: none;
+}
+header  a:hover {
+  text-decoration: overline underline;
+}
+h2, h3 {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 20px;
+    color: #c3936e;
+}
+h3 {
+  font-size: 15px;
+   font-style: italic;
+}
+p, ul {
+font-family: 'Proza Libre', sans-serif;
+  color: #606060;
+  margin: 30px 0;
+}
+li {
+  margin: 10px 0;
+}
+.boldal {
+  width: 390px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.boldal img {
+  width: 300px;
+  height: 550px;
+  object-fit: cover;
+  object-position: -300px -40px;
+}
+#cimsor1 {
+font-family: 'Proza Libre', sans-serif;
+  font-size: 20px;
+  color: #222;
+  font-style: normal;
+  text-shadow: #e4e7f5 1px 0 15px;
+  display: inline;
+  position: absolute;
+  top: 320px;
+  left: 60px;
+}
+#cimsor2 {
+font-family: 'Proza Libre', sans-serif;
+  font-size: 43px;
+  color: #222;
+text-shadow: #e4e7f5 1px 0 10px;
+    position: absolute;
+  top: 340px;
+  left: 60px;
+}
+main {
+  width: 630px;
+  margin: 0 20px;    
+}
+blockquote::before {
+  content: "“";
+  position: absolute;
+  top: -10px;
+  left: 0px;
+font-family: 'Proza Libre', sans-serif;
+  font-size: 85px;
+  /* ide jön a stílusa */
+}
+blockquote {
+  position: relative;
+font-family: 'Proza Libre', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  background: #606060;
+   color: #e4e7f5;
+  padding: 30px;
+  margin: 40px 0;
+}
