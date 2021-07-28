@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(90deg, rgb(168, 168, 168), rgb(228, 228, 228), rgb(168, 168, 168));
+    font-family: 'Quicksand', sans-serif;  
+}
+h1 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+#container {
+    height: ;
+    width: 1060px;
+    margin: auto;
+}
+#nagykepsora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230,230,230);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 0px;
+}
+#balradiv, #jobbradiv {
+    width: 60px;
+    height: 600px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;   
+}
+#jobbradiv img{
+    transform: scaleX(-1);
+}
+#jobbradiv:hover, #balradiv:hover{
+    box-shadow: inset 0px 0px 40px -15px rgba(122, 122, 122, 0.9);
+}
+#jobbradiv:active, #balradiv:active{
+    box-shadow: inset 0px 0px 40px -15px rgba(122, 122, 122, 0.7);
+    filter: invert(1);
+}
+
+#nagykepdiv {
+    width: 940px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    position: relative;
+}
+#nagykep {
+    width: 100%;
+    border-radius: 2px;
+    height: 600px;
+    object-fit: cover;
+ }
+#nagykep-szovege {
+    color: white;
+    width: 840px;
+    height: 150px;
+     /* display: inline-block; majd js lathatova teszi*/
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#nagykep-szovege h1 {
+    margin: 10px;
+    text-align: left;
+}
+#nagykep-szovege p {
+    margin: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#kiskepeksora {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;;
+    width: 940px;
+    justify-content: space-around;
+}
+.kiskep {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 4px;
+    width: 80px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5), 0 10px 10px 0 rgba(98, 182, 19, 0.19)
+  }
+.kiskep:hover{
+    position: relative;
+    top: -5px;
+}
+.kiskep:active{
+    filter: drop-shadow(0px 0px 10px #dddb44);
+    position: relative;
+    top: 0px;
+}
+
+#kiskepeksora img {
+    object-fit: cover;
+}
+
+.kiskepaktualis {
+    background-color: rgba(255, 255, 255);
+    box-shadow: none;
+    filter: drop-shadow(0px 0px 10px #ffffff);
+}
+.kiskepaktualis:hover {
+    top: 0px;
+}
+.kiskepaktualis:active {
+    filter: none;
+}
+
+#kiskepcime {
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    padding: 15px;
+    text-align: center;
+     /* display: block; majd js lathatova teszi es szoveget csereli */
+    display: none;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
